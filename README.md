@@ -1,6 +1,6 @@
 # Location, Sensor & Radio Network Status
 
-[![license: GPL](https://img.shields.io/badge/license-GPL-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html) 
+[![license: GPL](https://img.shields.io/badge/license-GPL-green.svg)](https://www.gnu.org/licenses/) 
 [![dependencies: up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg) 
 [![languages: 7](https://img.shields.io/badge/languages-7-blue.svg)](https://img.shields.io/badge/languages-7-blue.svg) 
 

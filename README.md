@@ -3,7 +3,7 @@
 [![license: GPL](https://img.shields.io/badge/license-GPL-green.svg)](https://www.gnu.org/licenses/) 
 [![dependencies: up to date](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg) 
 [![languages: 7](https://img.shields.io/badge/languages-7-blue.svg)](https://img.shields.io/badge/languages-7-blue.svg) 
-[![build size: 2.6 MB](https://img.shields.io/badge/build%20size-3.0%20MB-blue.svg)](https://img.shields.io/badge/build%20size-3.0%20MB-blue.svg) 
+[![build size: 2.6 MB](https://img.shields.io/badge/build%20size-2.6%20MB-blue.svg)](https://img.shields.io/badge/build%20size-2.6%20MB-blue.svg) 
 
 <a href="https://play.google.com/store/apps/details?id=com.drunkdeveloper.location.sensor.radio.network.wifi.status" target="_blank">
 <img src="https://github.com/steverichey/google-play-badge-svg/blob/master/img/en_get.svg" alt="Get it on Google Play" height="80"/></a>

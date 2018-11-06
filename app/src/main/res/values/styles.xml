@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <color name="accent">#FF9800</color>
+
+    <color name="gpsUsed">#80CBC4</color>
+    <color name="gpsUnused">#F44336</color>
+
+    <color name="accHigh">#8BC344</color>
+    <color name="accMedium">#FF9800</color>
+    <color name="accLow">#F44336</color>
+    <color name="accUnreliable">#9C27B0</color>
+
+    <color name="gen2">#8BC344</color>
+    <color name="gen3">#80CBC4</color>
+    <color name="gen4">#9C27B0</color>
+
+    <color name="circle_blue_stroke">#FF2196F3</color>
+    <color name="circle_blue_fill">#4D2196F3</color>
+    <color name="circle_purple_stroke">#FF9C27B0</color>
+    <color name="circle_purple_fill">#4D9C27B0</color>
+    <color name="circle_green_stroke">#FF8BC344</color>
+    <color name="circle_green_fill">#4D8BC344</color>
+    <color name="circle_orange_stroke">#FFFF9800</color>
+    <color name="circle_orange_fill">#4DFF9800</color>
+    <color name="circle_red_stroke">#FFF44336</color>
+    <color name="circle_red_fill">#4DF44336</color>
+    <color name="circle_gray_stroke">#FF9E9E9E</color>
+    <color name="circle_gray_fill">#4D9E9E9E</color>
+    <array name="location_provider_blue">
+        <item>@drawable/ic_context_marker_blue</item>
+        <item>@color/circle_blue_stroke</item>
+        <item>@color/circle_blue_fill</item>
+    </array>
+    <array name="location_provider_purple">
+        <item>@drawable/ic_context_marker_purple</item>
+        <item>@color/circle_purple_stroke</item>
+        <item>@color/circle_purple_fill</item>
+    </array>
+    <array name="location_provider_green">
+        <item>@drawable/ic_context_marker_green</item>
+        <item>@color/circle_green_stroke</item>
+        <item>@color/circle_green_fill</item>
+    </array>
+    <array name="location_provider_orange">
+        <item>@drawable/ic_context_marker_orange</item>
+        <item>@color/circle_orange_stroke</item>
+        <item>@color/circle_orange_fill</item>
+    </array>
+    <array name="location_provider_red">
+        <item>@drawable/ic_context_marker_red</item>
+        <item>@color/circle_red_stroke</item>
+        <item>@color/circle_red_fill</item>
+    </array>
+    <array name="location_provider_gray">
+        <item>@drawable/ic_context_marker_gray</item>
+        <item>@color/circle_gray_stroke</item>
+        <item>@color/circle_gray_fill</item>
+    </array>
+    <color name="halo">#B2FFFFFF</color>
+    <dimen name="bitmap_padding">2dp</dimen>
+    <dimen name="legend_rowheight">36dp</dimen>
+
+</resources>

@@ -1,0 +1,4 @@
+*.json
+*.iml
+/build
+/release

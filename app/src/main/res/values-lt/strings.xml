@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Location, Sensor &amp; Radio Network Status</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="action_record">Įrašyti</string>
+    <string name="action_stop_record">Pabaigti įrašymą</string>
+    <string name="action_agps">Atnaujinti AGPS duomenis</string>
+    <string name="action_legend">Legenda</string>
+    <string name="action_about">Apie</string>
+    <string name="error_write_file">Error writing to file</string>
+    <string name="error_ext_storage">External storage not available</string>
+    <string name="info_start_rec">Started recording</string>
+    <string name="notify_record_title">Recording sensor data</string>
+    <string name="notify_record_body">Touch to stop recording</string>
+    <string name="status_agps">AGPS duomenų atnaujinimo užklausa išsiųsta – dėmesio, kad apie atnaujinimo sekmę nepranešiama</string>
+    <string name="status_agps_captive">Negalima atnaujinti duomenų – paleiskite naršyklę, prisijunkite prie tinklo ir bandykite dar kartą</string>
+    <string name="status_agps_error">Galimo tinklo nėra, negalima atnaujinti AGPS duomenų</string>
+    <string name="title_section1">GPS</string>
+    <string name="title_section2">Jutikliai</string>
+    <string name="title_section3">Tinklai</string>
+    <string name="title_gps_lat">Platuma</string>
+    <string name="title_gps_lon">Ilguma</string>
+    <string name="title_gps_coord">Koordinatės</string>
+    <string name="title_gps_decl">Dekl.</string>
+    <string name="title_gps_speed">Greitis</string>
+    <string name="title_gps_alt">Altitudė</string>
+    <string name="title_gps_time">Paskutinis padėties nustatymas</string>
+    <string name="title_gps_bear">Kryptis</string>
+    <string name="title_gps_orient">Orientation</string>
+    <string name="title_gps_acc">Tiksl.</string>
+    <string name="title_gps_sats">Palydovai</string>
+    <string name="title_gps_ttff">TTFF (s)</string>
+    <string name="value_none">–</string>
+    <string name="value_N">Š</string>
+    <string name="value_NNE">ŠŠR</string>
+    <string name="value_NE">ŠR</string>
+    <string name="value_ENE">RŠR</string>
+    <string name="value_E">R</string>
+    <string name="value_ESE">RPR</string>
+    <string name="value_SE">PR</string>
+    <string name="value_SSE">PPR</string>
+    <string name="value_S">P</string>
+    <string name="value_SSW">PPV</string>
+    <string name="value_SW">PV</string>
+    <string name="value_WSW">VPV</string>
+    <string name="value_W">V</string>
+    <string name="value_WNW">VŠV</string>
+    <string name="value_NW">ŠV</string>
+    <string name="value_NNW">ŠŠV</string>
+    <string name="title_sensor_acc">Pagreitis ir gravitacija</string>
+    <string name="title_sensors_accTotal">Σg (m/s²)</string>
+    <string name="title_sensors_accX">gx (m/s²)</string>
+    <string name="title_sensors_accY">gy (m/s²)</string>
+    <string name="title_sensors_accZ">gz (m/s²)</string>
+    <string name="title_sensor_rot">Sukimas</string>
+    <string name="title_sensors_rotTotal">Σω (rad/s)</string>
+    <string name="title_sensors_rotX">ωx (rad/s)</string>
+    <string name="title_sensors_rotY">ωy (rad/s)</string>
+    <string name="title_sensors_rotZ">ωz (rad/s)</string>
+    <string name="title_sensor_or">Orientacija</string>
+    <string name="title_sensors_orAzimuth">Azimutas</string>
+    <string name="title_sensors_orAziText">Orientation</string>
+    <string name="title_sensors_orPitch">Išilginė</string>
+    <string name="title_sensors_orRoll">Šoninė</string>
+    <string name="title_sensor_mag">Magnetinis laukas</string>
+    <string name="title_sensors_magTotal">ΣB (µT)</string>
+    <string name="title_sensors_magX">Bx (µT)</string>
+    <string name="title_sensors_magY">By (µT)</string>
+    <string name="title_sensors_magZ">Bz (µT)</string>
+    <string name="title_sensor_met">Meteorologija</string>
+    <string name="title_sensors_metTemp">&#x00a0;°C</string>
+    <string name="title_sensors_metPressure">&#x00a0;hPa</string>
+    <string name="title_sensors_metHumid">Santyk. drėgnumas (%)</string>
+    <string name="title_sensor_misc">Įvairūs</string>
+    <string name="title_sensors_light">&#x00a0;lux</string>
+    <string name="title_sensors_proximity">Artumas (cm)</string>
+    <string name="title_radio_gsm">GSM</string>
+    <string name="title_radio_mcc">MCC</string>
+    <string name="title_radio_mnc">MNC</string>
+    <string name="title_radio_cellid">Cell ID</string>
+    <string name="title_radio_lac">LAC</string>
+    <string name="title_radio_asu">ASU</string>
+    <string name="title_radio_cdma">CDMA</string>
+    <string name="title_radio_sid">SID</string>
+    <string name="title_radio_nid">NID</string>
+    <string name="title_radio_bsid">BSID</string>
+    <string name="title_radio_wifi">WiFi</string>
+    <string name="title_radio_mac">BSSID (MAC)</string>
+    <string name="title_radio_channel">K.</string>
+    <string name="title_radio_level">dBm</string>
+    <string name="title_activity_about">Apie</string>
+    <string name="about_caption">Location, Sensor and Radio Network Status</string>
+    <string name="about_version">Versija:</string>
+    <string name="about_text">&lt;p&gt;
+        Jeigu kažkas neveikia kaip turėtų, ar jeigu turite
+        mintį kaip dar tobulinti šią programą, prašome pranešti čia:
+        &lt;br/&gt;
+        &lt;a href="https://github.com/mvglasow/satstat/issues&gt;https://github.com/mvglasow/satstat/issues&lt;/a&gt;
+        &lt;/p&gt;&lt;p&gt;
+        Copyright &#169; 2013 – 2018 Michael von Glasow and contributors
+        &lt;br/&gt;
+        Portions &#169; Jonathan Stott, k9mail, mapsforge.org, Polidea
+        &lt;/p&gt;&lt;p&gt;
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+        &lt;/p&gt;&lt;p&gt;
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+        GNU General Public License for more details.
+        &lt;/p&gt;&lt;p&gt;
+        You should have received a copy of the GNU General Public License
+        along with this program. If not, see 
+        &lt;a href="http://www.gnu.org/licenses/"&gt;http://www.gnu.org/licenses/&lt;/a&gt;.
+        &lt;/p&gt;&lt;p&gt;
+        Map data and information provided by MapQuest, 
+        &lt;a href="http://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt; 
+        and contributors, 
+        &lt;a href="http://wiki.openstreetmap.org/wiki/Legal_FAQ#3a._I_would_like_to_use_OpenStreetMap_maps._How_should_I_credit_you.3F"&gt;ODbL&lt;/a&gt;.
+        &lt;/p&gt;&lt;p&gt;
+        Šios programos išeitinis kodas yra čia:
+        &lt;br/&gt;
+        &lt;a href="https://github.com/mvglasow/satstat&gt;https://github.com/mvglasow/satstat&lt;/a&gt;</string>
+    <string name="unit_degree">°</string>
+    <string name="unit_km_h">&#x00a0;km/h</string>
+    <string name="unit_meter">&#x00a0;m</string>
+    <string name="pref_notify">GPS vietovės įspėjimas</string>
+    <string name="pref_notify_summary">Pranešti, kai programa nustatys mano vietovę naudodama GPS</string>
+    <string name="pref_search">GPS paieškos įspėjimas</string>
+    <string name="pref_search_summary">Pranešti, kai programa ieškos mano vietovės naudodama GPS</string>
+    <string name="title_activity_settings">Nustatymai</string>
+    <string name="notify_nolocation_title">Ieškoma vietovė</string>
+    <string name="notify_nolocation_body">Palieskite, norėdami žiūrėti padėtį</string>
+    <string name="pref_notifications">Pranešimai</string>
+    <string name="pref_agps">AGPS duomenų atnaujinimas</string>
+    <string name="pref_wifi">Prisijungus prie WiFi tinklo</string>
+    <string name="pref_wifi_summary">Atnaujinti AGPS duomenis, kai mano įranga prisijungs prie WiFi tinklo</string>
+    <string name="pref_freq">Atnaujinimų dažnis</string>
+
+    <string-array name="prefs_freq_keys">
+        <item>Kiekvieną kartą</item>
+        <item>Vieną kartą kasdien</item>
+        <item>Vieną kartą kas 2 dienas</item>
+        <item>Vieną kartą kas 3 dienas</item>
+        <item>Vieną kartą kas 4 dienas</item>
+        <item>Vieną kartą kas 5 dienas</item>
+        <item>Vieną kartą kas 6 dienas</item>
+        <item>Vieną kartą kas savaitę</item>
+    </string-array>
+
+    <string name="pref_lastupdate">Paskutinkart atnaujinta</string>
+    <string name="pref_networks">Tinklai</string>
+    <string name="pref_networks_summary">Atnaujinti AGPS duomenis, kai mano įranga prisijungs prie vieno iš išrinktųjų tinklų</string>
+    <string name="pref_map">Žemėlapis</string>
+    <string name="pref_loc_prov">Vietovės šaltiniai</string>
+    <string name="pref_loc_prov_summary">Nurodyti išrinktuosius vietovės šaltinius žemėlapyje</string>
+    <string name="pref_data">Duomenų nurodymas</string>
+    <string name="pref_unit">Naudoti metrinius vienetus</string>
+    <string name="pref_unit_summary">Jeigu neišrinkta, bus naudojami JAV matavimo vinetai (išskyrus jutikliams)</string>
+    <string name="pref_knots">Nurodyti greitį mazgais</string>
+    <string name="pref_knots_summary">Jeigu neišrinkta, bus naudojami metrini arba JAV vienetai (pagal bendrą vienetų nustatymą) will be used</string>
+    <string name="pref_coord">Koordinatės</string>
+
+    <string-array name="prefs_coord_keys">
+        <item>Laipsniais</item>
+        <item>Laipsniais ir minutėmis</item>
+        <item>Laipsniais, minutėmis ir sekundėmis</item>
+        <item>MGRS</item>
+        <item>UTM</item>
+    </string-array>
+
+    <string name="pref_utc">Nurodyti GPS laiką UTC</string>
+    <string name="pref_utc_summary">Naudoti UTC vietienio laiko juosto vietoj GPS laiko nurodymui</string>
+    <string name="pref_cid">Sudalyti UMTS/LTE ląstelių ID kodus</string>
+    <string name="pref_cid_summary">Sudalyti ID kodus į RNCID/CID arba eNodeB/sector ID</string>
+    <string name="title_activity_legend">Legenda</string>
+    <string name="title_legend_gps">GPS</string>
+    <string name="title_legend_gps_used">Palydovas vartojamas vietovei nustatyti</string>
+    <string name="title_legend_gps_unused">Palydovas nevartojamas vietovei nustatyti</string>
+    <string name="title_legend_sensors">Jutikliai</string>
+    <string name="title_legend_sensors_high">Aukštas tikslumas</string>
+    <string name="title_legend_sensors_medium">Vidutinis tikslumas</string>
+    <string name="title_legend_sensors_low">Žemas tikslumas</string>
+    <string name="title_legend_sensors_unreliable">Nepatikimas</string>
+    <string name="title_legend_radio">Tinklai</string>
+    <string name="title_legend_radio_2g">2G ląstelė</string>
+    <string name="title_legend_radio_3g">3G ląstelė</string>
+    <string name="title_legend_radio_4g">4G ląstelė</string>
+    <string name="title_legend_radio_open">Atviras WiFi tinklas</string>
+    <string name="title_legend_radio_wep">WEP saugumas</string>
+    <string name="title_legend_radio_psk">WPA-PSK (asmeninis) saugumas</string>
+    <string name="title_legend_radio_eap">WPA-EAP (verslo) saugumas</string>
+    <string name="title_legend_radio_adhoc">Ad-hoc WiFi</string>
+    <string name="title_legend_radio_unknown">Nepažįstama WiFi rūšis</string>
+    <string name="title_legend_map">Žemėlapis</string>
+    <string name="title_legend_map_prov">%s šaltinio vietovė</string>
+    <string name="title_legend_map_stale">Pasenusi bet kurio šaltinio vietovė</string>
+    <string name="pref_wifi_sort">Ryšioti WiFi tinklus</string>
+
+    <string-array name="prefs_wifi_sort_keys">
+        <item>Pagal BSSID</item>
+        <item>Pagal pavadimimą</item>
+        <item>Pagal kanalą</item>
+        <item>Pagal signalo galią</item>
+    </string-array>
+
+    <string name="pref_map_offline">Naudoti offline žemėlapį</string>
+    <string name="pref_map_offline_summary">Atvaizduoti žemėlapius įrenginyje (reikės atsisiųsti offline žemėlapį)</string>
+    <string name="pref_map_path">Offline žemėlapių aplankas</string>
+    <string name="map_path_title">Offline žemėlapių aplankas:</string>
+    <string name="map_path_fileman">Kad galėtumete peržvelgti aplankus, reikia įdiegti palaikomą failų tvarkyklę.</string>
+    <string name="action_ok">Gerai</string>
+    <string name="action_cancel">Atšaukti</string>
+    <string name="pref_map_download">Atsisiųsti offline žemėlapį</string>
+    <string name="pref_map_download_summary">Atsisiųsti Mapsforge žemėlapių</string>
+    <string name="pref_map_purge">Išvalyti talpykloje saugomas kaladėles</string>
+    <string name="pref_map_purge_summary">Visos žemėlapio kaladėlės bus parsiunčiamos arba atvaizduojamos iš naujo, naudinga bėdašaudystei</string>
+    <string name="status_map_purged">Talpykloje saugomos kaladėlės išvalytos</string>
+    <string name="title_activity_map_download">Atsisiųsti offline žemėlapį</string>
+    <string name="status_folder_empty">Aplankas yra tuščias</string>
+    <string name="status_already_downloading">Jau vyksta to pačio pavadinimo žemėlapio atsisiuntimas</string>
+    <string name="confirm_download">Atrodo, kad jau turite šio žemėlapio naujausią versiją. Ar jį norite vis tiek atsisiųsti?</string>
+    <string name="action_yes">Taip</string>
+    <string name="action_no">Ne</string>
+    <string name="status_downloads_completed">Visi atsisiuntimai yra pabaigti</string>
+    <string name="status_perm_map_download">Kad galėtumete atsisiųsti offline žemėlapius, reikia leidimo failus įrenginyje pasiekti</string>
+    <string name="status_perm_location">Kad galėtumete matyti vietovės arba bevielių tinklų informacijas, reikia leidimo įrenginio vietovės informaciją pasiekti</string>
+    <string name="status_perm_refresh_agps">Kad galėtumete atnaujinti AGPS duomenis, reikia leidimo įrenginio vietovės informaciją pasiekti</string>
+    <string name="status_perm_offline_map">Kad galėtumete naudoti offline žemėlapius, reikia leidimo failus įrenginyje pasiekti</string>
+    <string name="notify_perm_title">App prašo leidimus</string>
+    <string name="notify_perm_body">Palieskite, norėdami leisti arba atmesti</string>
+    <string name="pref_cid2">Nurodyti abi ląstelių ID formas</string>
+    <string name="pref_cid2_summary">Nurodyti ir sudalytą ir nesudalytą formą (anksčiau išrinkta forma bus nurodama viršuje)</string>
+    <string name="download_error">Klaida parsiunčiant žemelapių sąraša</string>
+    <string name="download_retry">Pabandyti dar kartą</string>
+    
+</resources>

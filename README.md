@@ -69,6 +69,7 @@ The source code for this application is at https://github.com/hamza1886/android-
 The application is the fork of SatStat by Michael von Glasow and contributors, available at https://github.com/mvglasow/satstat. 
 
 Copyright (c) 2018 Hamza Rashid
+
 Portions (c) Michael von Glasow and contributors, Jonathan Stott, k9mail, mapsforge.org, Polidea
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
